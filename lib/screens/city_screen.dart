@@ -12,6 +12,7 @@ class _CityScreenState extends State<CityScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomPadding: false,
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
